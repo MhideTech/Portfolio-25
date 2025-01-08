@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Cabin", serif;
+  }
+}
+
+.background {
+  background-image: linear-gradient(rgba(24, 24, 24, .95), rgba(24, 24, 24, .95)), url("./assets/images/bg-img.png");
+}
+
+.test {
+  background: linear-gradient( to right, rgb(202, 69, 3), rgb(41, 47, 236));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
