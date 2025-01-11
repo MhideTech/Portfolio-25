@@ -4,17 +4,107 @@
 
 @layer base {
   html {
-    font-family: "Cabin", serif;
+    font-family: "Otterco", serif;
   }
 }
 
+@font-face {
+  font-family: "Otterco";
+  src: url("src/assets/fonts/Fontspring-DEMO-ottercodisplay-medium.otf")
+    format("woff2");
+}
+
 .background {
-  background-image: linear-gradient(rgba(24, 24, 24, .95), rgba(24, 24, 24, .95)), url("./assets/images/bg-img.png");
+  background-image: linear-gradient(
+      rgba(24, 24, 24, 0.98),
+      rgba(24, 24, 24, 0.98)
+    ),
+    url("./assets/images/bg.jpg");
+}
+
+.testing {
+  transform: skew(0deg, -2deg);
+}
+
+.animated_text {
+  animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg); 
+  }
+}
+
+.animated_text:before,
+.animated_text:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+.animated_text:before{
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop{
+  2%,64%{
+    transform: translate(2px,-2px);
+  }
+  4%,60%{
+    transform: translate(-2px,2px);
+  }
+  62%{
+    transform: translate(13px,-1px) skew(-13deg); 
+  }
+}
+
+.animated_text:after{
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom{
+  2%,64%{
+    transform: translate(-2px,0);
+  }
+  4%,60%{
+    transform: translate(-2px,0);
+  }
+  62%{
+    transform: translate(-22px,5px) skew(21deg); 
+  }
 }
 
 .test {
-  background: linear-gradient( to right, rgb(202, 69, 3), rgb(41, 47, 236));
+  background-image: linear-gradient(
+    97.0286deg,
+    rgb(255, 255, 255) 0%,
+    rgba(243, 243, 243, 0.3) 100%,
+    rgba(243, 243, 243, 0.5) 100%
+  );
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+.test li:first-child::marker {
+  color: rgb(255, 255, 255);
+}
+
+.test li:nth-child(2)::marker {
+  color: rgba(243, 243, 243, 0.5);
+}
+
+.test li:last-child::marker {
+  color: rgba(243, 243, 243, 0.3);
 }
