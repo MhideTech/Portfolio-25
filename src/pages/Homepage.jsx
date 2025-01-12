@@ -31,7 +31,7 @@ function Homepage() {
         </div>
       </div>
       <br /><br /><br /><br /><br />
-      <SectionHeadline />
+      <SectionHeadline>Services</SectionHeadline>
       <br /><br /><br /><br /><br />
     </>
   );

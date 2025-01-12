@@ -14,6 +14,7 @@ module.exports = {
   rules: {
     "no-unused-vars": "warn",
     "disable-next-line react/prop-types": "off",
+    "eslint-disable react/prop-types": "warn",
     "react/jsx-no-target-blank": "off",
     "react-refresh/only-export-components": [
       "warn",
