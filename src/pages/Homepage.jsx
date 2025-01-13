@@ -1,3 +1,4 @@
+import Footer from "../ui/Footer";
 import Header from "../ui/Header";
 import Mouse from "../ui/Mouse";
 import NameBadge from "../ui/NameBadge";
@@ -30,9 +31,30 @@ function Homepage() {
           <Mouse />
         </div>
       </div>
-      <br /><br /><br /><br /><br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <SectionHeadline>Services</SectionHeadline>
-      <br /><br /><br /><br /><br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <div className="text-7xl font-bold bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200 text-transparent bg-clip-text">
+        I take no hidden shortcuts, <br />
+        only clear paths to excellence.
+      </div>
+      <br /><br /><br />
+      <div className="text-7xl font-bold bg-gradient-to-r from-blue-600 to-[#ef7e06] text-transparent bg-clip-text">
+        I take no hidden shortcuts, <br />
+        only clear paths to excellence.
+      </div>
+
+      <Footer />
+
     </>
   );
 }
