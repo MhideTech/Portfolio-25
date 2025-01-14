@@ -4,8 +4,8 @@ function Footer() {
   return (
     <section className="flex flex-col items-center justify-center bg-gray-50 py-16 px-4 mt-10">
       <div className="mb-6">
-        <div className="flex items-center justify-center w-16 h-16 bg-gray-200 rounded-full">
-          🤝
+        <div className="flex items-center justify-center w-fit h-fit bg-gray-200 rounded-full p-3">
+          <img src="src/assets/images/deal.png" alt="Handshake deal" className="w-16 m-0" />
         </div>
       </div>
 
@@ -23,7 +23,7 @@ function Footer() {
       </div>
 
       <div className="mt-12 text-center">
-        <p className="text-sm text-gray-500">© {date} All rights reserved.</p>
+        <p className="text-md text-gray-500">© {date} All rights reserved.</p>
       </div>
     </section>
   );
