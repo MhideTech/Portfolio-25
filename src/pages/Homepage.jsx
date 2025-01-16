@@ -2,6 +2,7 @@ import Footer from "../ui/Footer";
 import Header from "../ui/Header";
 import Mouse from "../ui/Mouse";
 import NameBadge from "../ui/NameBadge";
+import Project from "../ui/Project";
 import SectionHeadline from "../ui/SectionHeadline";
 
 function Homepage() {
@@ -52,6 +53,8 @@ function Homepage() {
         I take no hidden shortcuts, <br />
         only clear paths to excellence.
       </div>
+
+      <Project />
 
       <Footer />
 
