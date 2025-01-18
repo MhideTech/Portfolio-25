@@ -10,8 +10,8 @@ function ProjectCard({ project }) {
         />
       </div>
 
-      <div className="w-full md:w-1/2 p-6 space-y-4 py-8">
-        <h3 className="text-xl font-bold text-gray-800">
+      <div className="w-full md:w-1/2 p-6 py-8">
+        <h3 className="text-2xl font-bold text-gray-800 mb-2">
           {project.name}
         </h3>
 
@@ -19,16 +19,16 @@ function ProjectCard({ project }) {
           href={project.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-500 hover:underline"
+          className="text-blue-500 hover:underline mb-9"
         >
-          https://github.com/devisreal/TastyTracks
+          kk
         </a>
 
-        <p className="text-gray-600 text-sm">
+        <p className="text-gray-600 text-lg mb-2">
           {project.description}
         </p>
 
-        <p className="text-gray-600 text-sm">
+        <p className="text-gray-600 text-lg mb-5">
           <strong>Technologies:</strong> {project.technologies}
         </p>
 
