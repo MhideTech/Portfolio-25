@@ -36,7 +36,7 @@ function ProjectCard({ project }) {
           rel="noopener noreferrer"
           className="text-gray-700 hover:text-gray-900"
         >
-          <div className="flex items-center space-x-4 p-3 rounded-md transition-all duration-500 cursor-pointer bg-gray-300 hover:bg-gray-200">
+          <div className="flex items-center space-x-4 p-3 rounded-md transition-all duration-500 cursor-pointer bg-gray-200 border hover:border-gray-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"

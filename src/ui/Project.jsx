@@ -11,6 +11,15 @@ function Project() {
       technologies: "Tailwind CSS, ReactJS, TypeScript, Node.js, Postgres",
       githubUrl: "https://github.com/MhideTech/quizwhiz-frontend",
     },
+    {
+      image: "src/assets/images/projects-image/plant-palace.png",
+      name: "PlantPalace",
+      url: "https://aptechota-plantpalace-cyberminds.vercel.app/",
+      description:
+        "An e-commerce web application for the purchase of various plant for indoor and outdoor decorations",
+      technologies: "HTML, CSS, JavaScript",
+      githubUrl: "https://github.com/MhideTech/Techwiz-Project-PlantPalace",
+    },
   ];
   return (
     <div className="w-10/12 mx-auto flex flex-col gap-8">
