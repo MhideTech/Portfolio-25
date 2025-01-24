@@ -20,6 +20,15 @@ function Project() {
       technologies: "HTML, CSS, JavaScript",
       githubUrl: "https://github.com/MhideTech/Techwiz-Project-PlantPalace",
     },
+    {
+      image: "src/assets/images/projects-image/text-redaction.png",
+      name: "Text Redaction Application",
+      url: "https://textredaction.netlify.app/",
+      description:
+        "A text redaction web application created to redact sensitive words or information before being shared to social media platforms",
+      technologies: "HTML, CSS, JavaScript",
+      githubUrl: "https://github.com/MhideTech/Text-Redaction-App",
+    },
   ];
   return (
     <div className="w-10/12 mx-auto flex flex-col gap-8">

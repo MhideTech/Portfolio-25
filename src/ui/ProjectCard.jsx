@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 function ProjectCard({ project }) {
   return (
     <div className="flex flex-col md:flex-row items-center bg-gray-100 rounded-lg shadow-md overflow-hidden p-8">
@@ -15,16 +14,18 @@ function ProjectCard({ project }) {
           {project.name}
         </h3>
 
-        <a
-          href={project.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-500 hover:underline mb-9"
-        >
-          {project.url}
-        </a>
+        {project.url && (
+          <a
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline mb-9"
+          >
+            {project.url}
+          </a>
+        )}
 
-        <p className="text-gray-600 text-lg mb-2">{project.description}</p>
+        <p className="text-gray-600 text-lg mb-2 font-thin">{project.description}</p>
 
         <p className="text-gray-600 text-lg mb-5">
           <strong>Technologies:</strong> {project.technologies}

@@ -4,6 +4,7 @@ import Mouse from "../ui/Mouse";
 import NameBadge from "../ui/NameBadge";
 import Project from "../ui/Project";
 import SectionHeadline from "../ui/SectionHeadline";
+import Skills from "../ui/Skills";
 
 function Homepage() {
   return (
@@ -53,6 +54,8 @@ function Homepage() {
         I take no hidden shortcuts, <br />
         only clear paths to excellence.
       </div>
+
+      <Skills />
 
       <Project />
 

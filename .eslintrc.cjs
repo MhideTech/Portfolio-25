@@ -13,6 +13,7 @@ module.exports = {
   plugins: ["react-refresh"],
   rules: {
     "no-unused-vars": "warn",
+    "react/prop-types": "warn",
     "disable-next-line react/prop-types": "off",
     "eslint-disable react/prop-types": "off",
     "react/jsx-no-target-blank": "off",
