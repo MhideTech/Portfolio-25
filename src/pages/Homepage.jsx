@@ -9,36 +9,35 @@ import Skills from "../ui/Skills";
 function Homepage() {
   return (
     <>
-        <div className="h-screen background relative flex flex-col justify-center items-center w-full rounded">
-          <Header />
-          <div className="w-40 h-40 rounded-full border-4 border-gray-600 relative flex mb-10 hover:grayscale-[60%]">
-            <img
-              src="src/assets/images/me2.jpeg"
-              alt="Okefolahan Olamide Israel"
-              className="w-full h-full rounded-full object-cover pointer-events-none"
-            />
-            <NameBadge />
-          </div>
-
-          <h1 className="text-gray-800 text-6xl mb-5 font-bold tracking-wide w-2/4 text-center">
-            Fullstack Web and Mobile App Developer
-          </h1>
-
-          <ul className="list-disc text-black flex gap-20 text-4xl font-bold mt-5 test outlined-text tracking-wide">
-            <li>iBuild</li>
-            <li>iCreate</li>
-            <li>iDesign</li>
-          </ul>
-
-          <Mouse />
+      <div className="h-screen background relative flex flex-col justify-center items-center w-full rounded">
+        <Header />
+        <div className="w-40 h-40 rounded-full border-4 border-gray-600 relative flex mb-10 hover:grayscale-[60%]">
+          <img
+            src="src/assets/images/me2.jpeg"
+            alt="Okefolahan Olamide Israel"
+            className="w-full h-full rounded-full object-cover pointer-events-none"
+          />
+          <NameBadge />
         </div>
-      
+
+        <h1 className="text-gray-800 text-4xl lg:text-6xl mb-5 font-bold tracking-wide md:w-2/4 text-center">
+          Fullstack Web and Mobile App Developer
+        </h1>
+
+        <ul className="list-disc text-black flex gap-10 md:gap-20 text-3xl md:text-4xl font-bold mt-5 test outlined-text tracking-wide">
+          <li>iBuild</li>
+          <li>iCreate</li>
+          <li>iDesign</li>
+        </ul>
+
+        <Mouse />
+      </div>
+
       <br />
       <br />
       <br />
       <br />
       <br />
-      <SectionHeadline>Services</SectionHeadline>
       <br />
       <br />
       <br />
@@ -52,9 +51,11 @@ function Homepage() {
       <br />
       <br />
       <br />
-      
+
+      <SectionHeadline>Skills</SectionHeadline>
       <Skills />
 
+      <SectionHeadline>Projects</SectionHeadline>
       <Project />
 
       <Footer />

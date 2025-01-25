@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaAngleDoubleUp, FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 function Footer() {
@@ -23,18 +23,24 @@ function Footer() {
       <div className="flex space-x-4">
         <a
           href="mailto:okefolahanolamide2006@gmail.com"
-          className="flex items-center px-8 py-3 bg-black text-white rounded-full shadow hover:bg-gray-800"
+          className="flex items-center px-8 py-3 bg-gray-800 text-white rounded-full shadow hover:bg-gray-800"
         >
           Send me an email
         </a>
       </div>
 
-      <div className="mt-12 flex justify-between w-full">
-        <p className="text-md text-gray-500">© {date} All rights reserved.</p>
-        <div className="flex gap-3">
-          <FaLinkedin className="text-2xl -rotate-6" />
-          <FaSquareXTwitter className="text-2xl rotate-6" />
-          <FaGithub className="text-2xl -rotate-6" />
+      <div className="mt-12 flex justify-between w-full text-gray-800 items-end">
+        <p className="text-md">© {date} All rights reserved.</p>
+        <p className="flex items-center gap-2">
+          <span>Back to Top</span> <FaAngleDoubleUp />
+        </p>
+        <div className="flex gap-2 text-center flex-col">
+          <p>My Social Handles:</p>
+          <div className="flex gap-5">
+            <FaGithub className="text-2xl -rotate-6" />
+            <FaLinkedin className="text-2xl rotate-6" />
+            <FaSquareXTwitter className="text-2xl -rotate-6" />
+          </div>
         </div>
       </div>
     </section>

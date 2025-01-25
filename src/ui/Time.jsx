@@ -16,9 +16,9 @@ function Time() {
   const seconds = time.getSeconds();
 
   return (
-    <div className="px-6 py-1 bg-[rgba(0,0,0,0.9)] border border-[#544c4c] rounded-full font-sub text-xl relative overflow-hidden">
+    <div className="relative overflow-hidden">
       <div className="flex items-center justify-center">
-        <p className="time-part transition-all duration-500 text-white ease-in-out flex items-center space-x-1 text-2xl">
+        <p className="time-part transition-all duration-500 text-gray-800 ease-in-out flex items-center space-x-1 text-xl">
           <span className="tracking-wider">{hours}</span>
           <span
             className={`${seconds % 2 === 0 ? "opacity-100" : "opacity-0"}`}
