@@ -17,35 +17,27 @@
 .slash {
   font-family: sans-serif;
 }
+* {
+  color: rgb(240, 242, 245);
+}
 
 .background {
   background-image: linear-gradient(
-      rgba(24, 24, 24, 0.98),
-      rgba(24, 24, 24, 0.98)
+      rgba(240, 242, 245, .97),
+      rgba(240, 242, 245, .97)
     ),
     url("./assets/images/bg.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.test {
-  background-image: linear-gradient(
-    97.0286deg,
-    rgb(255, 255, 255) 0%,
-    rgba(243, 243, 243, 0.3) 100%,
-    rgba(243, 243, 243, 0.5) 100%
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
+.outlined-text {
+  /* font-weight: bold; */
   color: transparent;
+  -webkit-text-stroke: .1px black;
+  text-stroke: .1px black;
 }
 
-.test li:first-child::marker {
-  color: rgb(255, 255, 255);
-}
-
-.test li:nth-child(2)::marker {
-  color: rgba(243, 243, 243, 0.5);
-}
-
-.test li:last-child::marker {
-  color: rgba(243, 243, 243, 0.3);
+.test li::marker {
+  color: rgb(41, 39, 39);
 }

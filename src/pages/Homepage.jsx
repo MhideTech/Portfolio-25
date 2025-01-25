@@ -9,8 +9,7 @@ import Skills from "../ui/Skills";
 function Homepage() {
   return (
     <>
-      <div className="p-2 h-screen bg-[#8d8d8b]">
-        <div className="h-full background relative flex flex-col justify-center items-center w-full rounded">
+        <div className="h-screen background relative flex flex-col justify-center items-center w-full rounded">
           <Header />
           <div className="w-40 h-40 rounded-full border-4 border-gray-600 relative flex mb-10 hover:grayscale-[60%]">
             <img
@@ -21,18 +20,19 @@ function Homepage() {
             <NameBadge />
           </div>
 
-          <h1 className="text-white text-6xl mb-5 font-bold tracking-wide w-2/4 text-center">
+          <h1 className="text-gray-800 text-6xl mb-5 font-bold tracking-wide w-2/4 text-center">
             Fullstack Web and Mobile App Developer
           </h1>
-          <ul className="list-disc text-white flex gap-20 text-4xl font-bold mt-5 test">
-            <li className="">iBuild</li>
+
+          <ul className="list-disc text-black flex gap-20 text-4xl font-bold mt-5 test outlined-text tracking-wide">
+            <li>iBuild</li>
             <li>iCreate</li>
             <li>iDesign</li>
           </ul>
 
           <Mouse />
         </div>
-      </div>
+      
       <br />
       <br />
       <br />
@@ -49,18 +49,15 @@ function Homepage() {
         I take no hidden shortcuts, <br />
         only clear paths to excellence.
       </div>
-      <br /><br /><br />
-      <div className="text-7xl font-bold bg-gradient-to-r from-blue-600 to-[#ef7e06] text-transparent bg-clip-text">
-        I take no hidden shortcuts, <br />
-        only clear paths to excellence.
-      </div>
-
+      <br />
+      <br />
+      <br />
+      
       <Skills />
 
       <Project />
 
       <Footer />
-
     </>
   );
 }
