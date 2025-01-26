@@ -31,12 +31,12 @@ function Footer() {
 
       <div className="mt-12 flex justify-between w-full text-gray-800 items-end">
         <p className="text-md">© {date} All rights reserved.</p>
-        <p className="flex items-center gap-2">
+        {/* <p className="flex items-center gap-2">
           <span>Back to Top</span> <FaAngleDoubleUp />
-        </p>
+        </p> */}
         <div className="flex gap-2 text-center flex-col">
           <p>My Social Handles:</p>
-          <div className="flex gap-5">
+          <div className="flex gap-4 md:gap-5">
             <FaGithub className="text-2xl -rotate-6" />
             <FaLinkedin className="text-2xl rotate-6" />
             <FaSquareXTwitter className="text-2xl -rotate-6" />

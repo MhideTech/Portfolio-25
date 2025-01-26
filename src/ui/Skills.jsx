@@ -26,16 +26,13 @@ function Skills() {
             doloremque laudantium, totam rem aperiamc eaque ipsa quae ab illo
             inventore veritatis.
           </p>
-          <button className="bg-lime-500 text-black font-semibold py-3 px-6 rounded-lg shadow-lg">
-            Learn More &rarr;
-          </button>
         </div>
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="bg-gray-800 rounded-lg p-4 flex flex-col items-center shadow-md"
+              className="bg-gray-200 rounded-lg px-4 py-6 flex flex-col items-center shadow-sm"
             >
               <div className="text-4xl mb-4">{skill.icon}</div>
               <h3 className="text-lg font-semibold">{skill.name}</h3>

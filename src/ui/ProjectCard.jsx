@@ -1,6 +1,6 @@
 function ProjectCard({ project }) {
   return (
-    <div className="flex flex-col md:flex-row items-center bg-gray-100 rounded-lg shadow-md overflow-hidden p-8">
+    <div className="flex flex-col md:flex-row items-center bg-gray-100 rounded-lg shadow-md overflow-hidden p-6 md:p-8">
       <div className="w-full md:w-1/2 h-64 md:h-auto">
         <img
           src={project.image}
@@ -9,7 +9,7 @@ function ProjectCard({ project }) {
         />
       </div>
 
-      <div className="w-full md:w-1/2 p-6 py-8">
+      <div className="w-full md:w-1/2 md:p-6 py-8">
         <h3 className="text-2xl font-bold text-gray-800 mb-2">
           {project.name}
         </h3>
