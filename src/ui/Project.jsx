@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 function Project() {
   const projects = [
     {
-      image: "src/assets/images/projects-image/e-learn.png",
+      image: "/images/projects-image/e-learn.png",
       name: "Mhizta Orlah Online Learning Platform",
       url: "",
       description:
@@ -12,7 +12,7 @@ function Project() {
       githubUrl: "https://github.com/MhideTech/quizwhiz-frontend",
     },
     {
-      image: "src/assets/images/projects-image/plant-palace.png",
+      image: "/images/projects-image/plant-palace.png",
       name: "PlantPalace",
       url: "https://aptechota-plantpalace-cyberminds.vercel.app/",
       description:
@@ -21,7 +21,7 @@ function Project() {
       githubUrl: "https://github.com/MhideTech/Techwiz-Project-PlantPalace",
     },
     {
-      image: "src/assets/images/projects-image/text-redaction.png",
+      image: "/images/projects-image/text-redaction.png",
       name: "Text Redaction Application",
       url: "https://textredaction.netlify.app/",
       description:

@@ -13,7 +13,7 @@ function Homepage() {
         <Header />
         <div className="w-40 h-40 rounded-full border-4 border-gray-600 relative flex mb-10 hover:grayscale-[60%]">
           <img
-            src="src/assets/images/me2.jpeg"
+            src="/images/me2.jpeg"
             alt="Okefolahan Olamide Israel"
             className="w-full h-full rounded-full object-cover pointer-events-none"
           />

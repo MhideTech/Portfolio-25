@@ -9,7 +9,7 @@ function Footer() {
       <div className="mb-6">
         <div className="flex items-center justify-center w-fit h-fit bg-gray-200 rounded-full p-3">
           <img
-            src="src/assets/images/deal.png"
+            src="/images/deal.png"
             alt="Handshake deal"
             className="w-16 m-0"
           />
