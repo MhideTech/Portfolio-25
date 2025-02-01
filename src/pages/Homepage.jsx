@@ -12,7 +12,7 @@ function Homepage() {
     <>
       <div className="h-screen background relative flex flex-col justify-center items-center w-full rounded">
         <Header />
-        <div className="w-40 h-40 rounded-full border-4 border-gray-600 relative flex mb-10 hover:grayscale-[60%]">
+        <div className="w-32 xl:w-40 h-32 xl:h-40 rounded-full border-4 border-gray-600 relative flex mb-10 hover:grayscale-[60%]">
           <img
             src="/images/me2.jpeg"
             alt="Okefolahan Olamide Israel"
@@ -21,7 +21,7 @@ function Homepage() {
           <NameBadge />
         </div>
 
-        <h1 className="text-gray-800 text-4xl lg:text-6xl mb-5 font-bold tracking-wide md:w-2/4 text-center">
+        <h1 className="text-gray-800 text-4xl lg:text-5xl xl:text-6xl xl:mb-5 font-bold tracking-wide md:w-2/4 text-center">
           Fullstack Web and Mobile App Developer
         </h1>
 
