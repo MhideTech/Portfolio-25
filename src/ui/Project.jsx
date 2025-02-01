@@ -4,11 +4,11 @@ function Project() {
   const projects = [
     {
       image: "/images/projects-image/e-learn.png",
-      name: "Mhizta Orlah Online Learning Platform",
+      name: "QuizWhiz",
       url: "",
       description:
-        "An online learning platform that allows student to learn in a fun and interactive way",
-      technologies: "Tailwind CSS, ReactJS, TypeScript, Node.js, Postgres",
+        "An online learning platform that allow students to learn in a fun and interactive way through quizzes",
+      technologies: "Tailwind CSS, ReactJS, TypeScript, Node.js, PostgreSQL",
       githubUrl: "https://github.com/MhideTech/quizwhiz-frontend",
     },
     {

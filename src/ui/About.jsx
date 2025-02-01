@@ -6,18 +6,21 @@ function About() {
           I take no hidden shortcuts, <br />
           only clear paths to excellence.
         </h1>
-        <p className="text-gray-400 mt-4 text-lg leading-relaxed">
-          At vero eos et accusamus et odio dignissimos ducimus praesentium
-          voluptatum corrupti quos dolores quas molestias excepturi sint
-          occaecati cupiditate provident qui officia deserunt mollitia animi, id
-          est laborum et dolorum.
-        </p>        
-        <p className="text-gray-400 mt-4 text-lg leading-relaxed">
-          At vero eos et accusamus et odio dignissimos ducimus praesentium
-          voluptatum corrupti quos dolores quas molestias excepturi sint
-          occaecati cupiditate provident qui officia deserunt mollitia animi, id
-          est laborum et dolorum.
-        </p>        
+        <p className="text-gray-600 mt-4 text-lg leading-relaxed">
+          I am a Nigerian Software Engineer with a strong background in web and
+          mobile app development. As a Tech Instructor, I am passionate about
+          teaching and mentoring aspiring developers, helping them build a solid
+          foundation in programming and software development. I also have an eye
+          for UI/UX design, ensuring that the products I work on are both
+          functional and visually appealing.
+        </p>
+        <p className="text-gray-600 mt-4 text-lg leading-relaxed">
+          Beyond coding, I enjoy traveling, researching, and exploring the
+          internet to stay updated with the latest trends in technology. I have
+          a deep interest in AI/ML, building innovative solutions, collaborating
+          on open<span className="symbol">-</span>source projects, and continuous learning to expand my
+          knowledge and expertise.
+        </p>
       </div>
 
       <div className="col-span-1 relative flex justify-end bg-blue-100">
