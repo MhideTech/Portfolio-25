@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "./../styles/animate.css";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 
 function NameBadge() {
   return (
@@ -12,6 +13,7 @@ function NameBadge() {
         <FaGithub className="text-xl -rotate-6" />
         <FaLinkedin className="text-xl rotate-6" />
         <FaSquareXTwitter className="text-xl -rotate-6" />
+        <MdEmail className="text-xl rotate-6" />
       </div>
     </div>
   );

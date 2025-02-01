@@ -1,3 +1,4 @@
+import About from "../ui/About";
 import Footer from "../ui/Footer";
 import Header from "../ui/Header";
 import Mouse from "../ui/Mouse";
@@ -33,24 +34,13 @@ function Homepage() {
         <Mouse />
       </div>
 
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <SectionHeadline>About Me</SectionHeadline>
+      <About />
 
-      <div className="text-7xl font-bold bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200 text-transparent bg-clip-text">
+      {/* <h1 className="text-7xl font-bold bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200 text-transparent bg-clip-text">
         I take no hidden shortcuts, <br />
         only clear paths to excellence.
-      </div>
-      <br />
-      <br />
-      <br />
+      </h1> */}
 
       <SectionHeadline>Skills</SectionHeadline>
       <Skills />

@@ -2,16 +2,18 @@ function ProjectCard({ project }) {
   return (
     <div className="flex flex-col md:flex-row items-center bg-gray-100 rounded-lg shadow-md overflow-hidden p-6 md:p-8">
       <div className="w-full md:w-1/2 h-64 md:h-auto">
-        <div className="px-3 py-2 bg-gray-800 rounded-t-xl flex gap-2">
-          <div className="w-3 h-3 rounded-full bg-red-500"></div>
-          <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-          <div className="w-3 h-3 rounded-full bg-green-500"></div>
+        <div className="px-1 bg-gray-800 rounded-xl pt-2 pb-1">
+          <div className="flex gap-2 ms-3">
+            <div className="w-3 h-3 rounded-full bg-red-500"></div>
+            <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+            <div className="w-3 h-3 rounded-full bg-green-500"></div>
+          </div>
+          <img
+            src={project.image}
+            alt="Tasty Tracks"
+            className="w-full h-full object-cover rounded-md mt-2"
+          />
         </div>
-        <img
-          src={project.image}
-          alt="Tasty Tracks"
-          className="w-full h-full object-cover rounded-b-lg"
-        />
       </div>
 
       <div className="w-full md:w-1/2 md:p-6 py-8">
