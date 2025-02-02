@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "Otterco";
-  src: url("src/assets/fonts/Fontspring-DEMO-ottercodisplay-medium.otf")
+  src: url("/fonts/Fontspring-DEMO-ottercodisplay-medium.otf")
     format("woff2");
 }
 
