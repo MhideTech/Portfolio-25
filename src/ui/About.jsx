@@ -2,7 +2,7 @@ function About() {
   return (
     <section className="text-gray-800 py-16 grid grid-cols-2 md:grid-cols-3 items-center lg:gap-10 xl:gap-36 w-11/12 xl:w-10/12 mx-auto gap-10">
       <div className="col-span-3 md:col-span-2">
-        <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 via-red-400 to-red-100 text-transparent bg-clip-text">
+        <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 via-red-400 to-red-100 text-transparent bg-clip-text">
           I take no hidden shortcuts, <br />
           only clear paths to excellence.
         </h1>
@@ -33,11 +33,11 @@ function About() {
         ></div>
         <div className="absolute -left-1 xl:-left-28 top-20 bg-white px-4 py-2 rounded-full flex items-center shadow-lg">
           <span className="w-3 h-3 bg-pink-500 rounded-full mr-2"></span>
-          <span className="text-black font-medium">Experience Designer</span>
+          <span className="text-black font-medium">Experience Developer</span>
         </div>
         <div className="absolute -right-5 xl:-left-10 bottom-20 bg-white px-4 py-2 rounded-full flex items-center shadow-lg w-fit">
           <span className="w-3 h-3 bg-green-500 rounded-full mr-2"></span>
-          <span className="text-black font-medium">Mark J. Collins</span>
+          <span className="text-black font-medium">Building Solutions</span>
         </div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard";
+import SectionHeadline from "./SectionHeadline";
 
 function Project() {
   const projects = [
@@ -31,10 +32,13 @@ function Project() {
     },
   ];
   return (
-    <div className="w-10/12 mx-auto flex flex-col gap-8">
-      {projects.map((project) => (
-        <ProjectCard key={project.name} project={project} />
-      ))}
+    <div className="py-20">
+      <SectionHeadline>Projects</SectionHeadline>
+      <div className="w-10/12 mx-auto flex flex-col gap-8 mt-16">
+        {projects.map((project) => (
+          <ProjectCard key={project.name} project={project} />
+        ))}
+      </div>
     </div>
   );
 }
