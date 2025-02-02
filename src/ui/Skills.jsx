@@ -2,18 +2,18 @@ import SectionHeadline from "./SectionHeadline";
 
 function Skills() {
   const skills = [
-    { name: "JavaScript", icon: "public/images/skills/javascript.png" },
-    { name: "TypeScript", icon: "public/images/skills/typescript.svg" },
-    { name: "React.js", icon: "public/images/skills/react.svg" },
-    { name: "Tailwind", icon: "public/images/skills/tailwind.svg" },
-    { name: "Node.js", icon: "public/images/skills/nodejs.svg" },
-    { name: "Express", icon: "public/images/skills/express.svg" },
-    { name: "MongoDB", icon: "public/images/skills/mongodb.svg" },
-    { name: "PostgreSQL", icon: "public/images/skills/postgresql.svg" },
-    { name: "Dart", icon: "public/images/skills/dart.svg" },
-    { name: "Flutter", icon: "public/images/skills/flutter.svg" },
-    { name: "Git", icon: "public/images/skills/git.svg" },
-    { name: "Github", icon: "public/images/skills/github.svg" },
+    { name: "JavaScript", icon: "/images/skills/javascript.png" },
+    { name: "TypeScript", icon: "/images/skills/typescript.svg" },
+    { name: "React.js", icon: "/images/skills/react.svg" },
+    { name: "Tailwind", icon: "/images/skills/tailwind.svg" },
+    { name: "Node.js", icon: "/images/skills/nodejs.svg" },
+    { name: "Express", icon: "/images/skills/express.svg" },
+    { name: "MongoDB", icon: "/images/skills/mongodb.svg" },
+    { name: "PostgreSQL", icon: "/images/skills/postgresql.svg" },
+    { name: "Dart", icon: "/images/skills/dart.svg" },
+    { name: "Flutter", icon: "/images/skills/flutter.svg" },
+    { name: "Git", icon: "/images/skills/git.svg" },
+    { name: "Github", icon: "/images/skills/github.svg" },
   ];
 
   return (
