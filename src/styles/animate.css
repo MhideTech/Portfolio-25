@@ -2,8 +2,10 @@
   animation: mouse-animate 1.8s linear infinite;
 }
 
-.badge-animate {
-  animation: badge-animate 8s linear infinite;
+@media only screen and (min-width: 1024px) {
+  .badge-animate {
+    animation: badge-animate 8s linear infinite;
+  }
 }
 
 @keyframes mouse-animate {
@@ -20,12 +22,12 @@
 
 @keyframes badge-animate {
   0% {
-    transform: translateY(30%) rotate(-8deg);
+    transform: translateY(20%) rotate(-6deg);
   }
   50% {
-    transform: translateY(100%);
+    transform: translateY(40%);
   }
   100% {
-    transform: translateY(30%) rotate(-8deg);
+    transform: translateY(20%) rotate(-6deg);
   }
 }

@@ -20,8 +20,8 @@
 
 .background {
   background-image: linear-gradient(
-      rgba(240, 242, 245, .97),
-      rgba(240, 242, 245, .97)
+      rgba(240, 242, 245, .5),
+      rgba(240, 242, 245, .5)
     ),
     url("./assets/images/bg.jpg");
   background-size: cover;

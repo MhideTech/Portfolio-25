@@ -1,5 +1,6 @@
 import { FaAngleDoubleUp, FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import SocialMediaIcons from "./SocialMediaIcons";
 
 function Footer() {
   const date = new Date().getFullYear();
@@ -36,11 +37,7 @@ function Footer() {
         </p> */}
         <div className="flex gap-2 text-center flex-col">
           <p>My Social Handles:</p>
-          <div className="flex gap-4 md:gap-5">
-            <FaGithub className="text-2xl -rotate-6" />
-            <FaLinkedin className="text-2xl rotate-6" />
-            <FaSquareXTwitter className="text-2xl -rotate-6" />
-          </div>
+          <SocialMediaIcons />
         </div>
       </div>
     </section>
