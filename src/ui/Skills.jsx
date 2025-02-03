@@ -17,9 +17,9 @@ function Skills() {
   ];
 
   return (
-    <section className="bg-gray-50 py-16 pb-28 my-10 px-4">
+    <section className="bg-gray-50 py-16 pb-28 my-10">
       <SectionHeadline>Skills</SectionHeadline>
-      <div className="lg:w-11/12 xl:w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-20">
+      <div className="lg:w-11/12 xl:w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-20 px-4">
         <div>
           <h1 className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 via-red-400 to-red-100 text-transparent bg-clip-text">
             Let’s Explore My Skills <span className="symbol">&</span> Experience
