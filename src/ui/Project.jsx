@@ -33,7 +33,7 @@ function Project() {
     },
   ];
   return (
-    <div className="py-20">
+    <div className="py-20 dark:bg-gray-700">
       <SectionHeadline>Projects</SectionHeadline>
       <div className="w-10/12 mx-auto flex flex-col gap-8 mt-16">
         <Fade damping={0.3}>

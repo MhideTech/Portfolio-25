@@ -1,8 +1,8 @@
 function ProjectCard({ project }) {
   return (
-    <div className="flex flex-col md:flex-row items-center bg-gray-100 rounded-lg shadow-md overflow-hidden p-4 md:p-8 gap-5">
+    <div className="flex flex-col md:flex-row items-center bg-gray-100 rounded-lg shadow-md overflow-hidden p-4 md:p-8 gap-5 dark:bg-gray-800 border dark:border-gray-600">
       <div className="w-full md:w-1/2 h-auto">
-        <div className="px-1 bg-gray-800 rounded-xl pt-2 pb-1">
+        <div className="px-1 bg-gray-800 dark:bg-gray-700 rounded-xl pt-2 pb-1">
           <div className="flex gap-2 ms-3">
             <div className="w-2 h-2 xl:w-3 xl:h-3 rounded-full bg-red-500"></div>
             <div className="w-2 h-2 xl:w-3 xl:h-3 rounded-full bg-yellow-500"></div>
@@ -17,7 +17,7 @@ function ProjectCard({ project }) {
       </div>
 
       <div className="w-full md:w-1/2 md:p-6 py-8">
-        <h3 className="text-2xl font-bold text-gray-800 mb-2">
+        <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-200 mb-2">
           {project.name}
         </h3>
 
@@ -26,17 +26,17 @@ function ProjectCard({ project }) {
             href={project.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
+            className="text-blue-500 hover:underline dark:text-gray-50 underline"
           >
             {project.url}
           </a>
         )}
 
-        <p className="text-gray-600 text-lg mb-2 font-thin">
+        <p className="text-gray-600 text-lg mb-2 font-thin dark:text-gray-200">
           {project.description}
         </p>
 
-        <p className="text-gray-600 text-lg mb-5">
+        <p className="text-gray-600 text-lg mb-5 dark:text-gray-200">
           <strong>Technologies:</strong> {project.technologies}
         </p>
 

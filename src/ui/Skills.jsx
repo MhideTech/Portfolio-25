@@ -18,7 +18,7 @@ function Skills() {
   ];
 
   return (
-    <section className="bg-gray-50 py-16 pb-28 my-10">
+    <section className="bg-gray-50 dark:bg-gray-800 py-16 pb-28">
       <SectionHeadline>Skills</SectionHeadline>
       <div className="lg:w-11/12 xl:w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-20 px-4">
         <div>
@@ -27,7 +27,7 @@ function Skills() {
               Let’s Explore My Skills <span className="symbol">&</span>{" "}
               Experience
             </h1>
-            <p className="text-gray-600 mt-4 md:text-xl xl:text-lg leading-relaxed">
+            <p className="text-gray-600 dark:text-gray-200 mt-4 md:text-xl xl:text-lg leading-relaxed">
               Over the years, I have developed a strong foundation in software
               development, specializing in both frontend and backend
               technologies. My expertise spans across multiple languages,
@@ -35,7 +35,7 @@ function Skills() {
               and user
               <span className="symbol">-</span>friendly applications.
             </p>
-            <p className="text-gray-600 mt-4 md:text-xl xl:text-lg leading-relaxed">
+            <p className="text-gray-600 dark:text-gray-200 mt-4 md:text-xl xl:text-lg leading-relaxed">
               As a passionate developer, I constantly explore new technologies
               and best practices to stay ahead in the field. Whether it&apos;s
               learning a new framework, improving performance optimizations, or
@@ -50,14 +50,14 @@ function Skills() {
             {skills.map((skill, index) => (
               <div
                 key={index}
-                className="bg-gray-200 rounded-lg px-4 py-5 flex flex-col items-center shadow-sm gap-3"
+                className="bg-gray-200 dark:bg-gray-500 rounded-lg px-4 py-5 flex flex-col items-center shadow-sm gap-3"
               >
                 <img
                   src={skill.icon}
                   alt={`${skill.name} logo`}
                   className="h-16"
                 />
-                <h3 className="text-lg font-semibold">{skill.name}</h3>
+                <h3 className="text-lg text-gray-600 dark:text-gray-200">{skill.name}</h3>
               </div>
             ))}
           </Fade>

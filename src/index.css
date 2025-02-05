@@ -5,13 +5,13 @@
 @layer base {
   * {
     font-family: "Otterco", serif;
+    scroll-behavior: smooth;
   }
 }
 
 @font-face {
   font-family: "Otterco";
-  src: url("/fonts/Fontspring-DEMO-ottercodisplay-medium.otf")
-    format("woff2");
+  src: url("/fonts/Fontspring-DEMO-ottercodisplay-medium.otf") format("woff2");
 }
 
 .symbol {
@@ -20,19 +20,34 @@
 
 .background {
   background-image: linear-gradient(
-      rgba(240, 242, 245, .5),
-      rgba(240, 242, 245, .5)
+      rgba(240, 242, 245, 0.98),
+      rgba(240, 242, 245, 0.98)
     ),
-    url("./assets/images/bg.jpg");
+    url("./images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.background-dark {
+  background-image: linear-gradient(
+      rgba(31, 41, 55, 0.98),
+      rgba(31, 41, 55, 0.98)
+    ),
+    url("./images/bg.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .outlined-text {
-  /* font-weight: bold; */
   color: transparent;
   -webkit-text-stroke: 1px black;
   text-stroke: 1px black;
+}
+
+.outlined-text-dark {
+  color: transparent;
+  -webkit-text-stroke: 1px #F9FAFB;
+  text-stroke: 1px #F9FAFB;
 }
 
 .test li::marker {

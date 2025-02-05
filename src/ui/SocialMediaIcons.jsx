@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 function SocialMediaIcons() {
   return (
-    <div className="flex gap-4 md:gap-5 w-fit mx-auto text-2xl">
+    <div className="flex gap-4 md:gap-5 w-fit mx-auto text-2xl text-gray-600 dark:text-gray-200">
       <a
         href="https://github.com/MhideTech"
         target="_blank"

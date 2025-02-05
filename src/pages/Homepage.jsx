@@ -11,7 +11,7 @@ import Skills from "../ui/Skills";
 function Homepage() {
   return (
     <>
-      <div className="h-screen background relative flex flex-col justify-center items-center w-full rounded">
+      <div className="h-screen relative flex flex-col justify-center items-center w-full rounded" id="hero">
         <Header />
         <div className="w-48 lg:w-40 h-48 lg:h-40 rounded-full border-4 border-gray-800 relative flex mb-10 hover:grayscale-[20%] animate__animated animate__fadeInLeft">
           <img
@@ -37,8 +37,8 @@ function Homepage() {
         {/* </Slide> */}
         {/* </Fade> */}
 
-        <ul className="list-disc text-black flex gap-10 md:gap-20 text-3xl md:text-4xl font-bold mt-5 test outlined-text tracking-wide animate__animated animate__fadeInUp">
-          <li>iBuild</li>
+        <ul className="list-disc flex gap-10 md:gap-20 text-3xl md:text-4xl font-bold mt-5 test tracking-wide animate__animated animate__fadeInUp" id="hero-ul">
+          <li className="">iBuild</li>
           <li>iCreate</li>
           <li>iDesign</li>
         </ul>

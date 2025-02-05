@@ -18,7 +18,7 @@ function Time() {
   return (
     <div className="hidden md:block relative overflow-hidden">
       <div className="flex items-center justify-center">
-        <p className="time-part transition-all duration-500 text-gray-800 ease-in-out flex items-center space-x-1 text-xl">
+        <p className="time-part transition-all duration-500 text-gray-800 dark:text-gray-200 ease-in-out flex items-center space-x-1 text-xl">
           <span className="tracking-wider">{hours}</span>
           <span
             className={`${seconds % 2 === 0 ? "opacity-100" : "opacity-0"}`}
