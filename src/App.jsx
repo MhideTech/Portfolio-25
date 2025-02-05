@@ -12,10 +12,10 @@ function App() {
       setIsLoading(false);
     };
 
-    window.addEventListener("load", handleLoad);
+    window.addEventListener("DOMContentLoaded", handleLoad);
 
     return () => {
-      window.removeEventListener("load", handleLoad);
+      window.removeEventListener("DOMContentLoaded", handleLoad);
     };
   }, []);
 
