@@ -1,3 +1,4 @@
+import { Fade } from "react-awesome-reveal";
 import ProjectCard from "./ProjectCard";
 import SectionHeadline from "./SectionHeadline";
 
@@ -35,9 +36,11 @@ function Project() {
     <div className="py-20">
       <SectionHeadline>Projects</SectionHeadline>
       <div className="w-10/12 mx-auto flex flex-col gap-8 mt-16">
-        {projects.map((project) => (
-          <ProjectCard key={project.name} project={project} />
-        ))}
+        <Fade damping={0.3}>
+          {projects.map((project) => (
+            <ProjectCard key={project.name} project={project} />
+          ))}
+        </Fade>
       </div>
     </div>
   );
