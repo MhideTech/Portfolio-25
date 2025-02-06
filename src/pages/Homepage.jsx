@@ -37,7 +37,7 @@ function Homepage() {
         {/* </Slide> */}
         {/* </Fade> */}
 
-        <ul className="list-disc flex gap-10 md:gap-20 text-3xl md:text-4xl font-bold mt-5 test tracking-wide animate__animated animate__fadeInUp" id="hero-ul">
+        <ul className="list-disc flex gap-10 md:gap-20 text-3xl md:text-4xl font-bold mt-5 test tracking-wide animate__animated animate__fadeInUp w-fit mx-auto" id="hero-ul">
           <li className="">iBuild</li>
           <li>iCreate</li>
           <li>iDesign</li>
