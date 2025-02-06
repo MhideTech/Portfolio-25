@@ -7,15 +7,15 @@ import Loader from "./ui/Loader";
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    window.addEventListener("load", function () {
-      setIsLoading(false);
-    });
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("load", function () {
+  //     setIsLoading(false);
+  //   });
+  // }, []);
 
-  if (isLoading) {
-    return <Loader />;
-  }
+  // if (isLoading) {
+  //   return <Loader />;
+  // }
 
   return (
     <BrowserRouter>
