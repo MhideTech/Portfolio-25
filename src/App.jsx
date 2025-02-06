@@ -8,13 +8,23 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const handleLoad = () => {
-      setIsLoading(false);
+    const timeout = setTimeout(() => setIsLoading(false), 8000); // Hide loader after 8s
+
+    const checkReadyState = () => {
+      if (document.readyState === "complete") {
+        setIsLoading(false);
+        clearTimeout(timeout);
+      }
     };
 
-    window.addEventListener("load", handleLoad);
+    document.addEventListener("readystatechange", checkReadyState);
+    window.addEventListener("load", checkReadyState);
 
-    return () => window.removeEventListener("load", handleLoad);
+    return () => {
+      document.removeEventListener("readystatechange", checkReadyState);
+      window.removeEventListener("load", checkReadyState);
+      clearTimeout(timeout);
+    };
   }, []);
 
   if (isLoading) {
