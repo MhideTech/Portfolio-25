@@ -1,6 +1,7 @@
 import { Fade } from "react-awesome-reveal";
 import ProjectCard from "./ProjectCard";
 import SectionHeadline from "./SectionHeadline";
+import Button from "./Button";
 
 function Project() {
   const projects = [
@@ -42,6 +43,9 @@ function Project() {
           ))}
         </Fade>
       </div>
+      <button className="block mx-auto mt-10 bg-gray-800 text-gray-200 dark:bg-gray-200 dark:text-gray-800 px-6 py-2 rounded lg:text-lg animate__animated animate__fadeInUp">
+        More Projects Coming Soon...
+      </button>
     </div>
   );
 }
