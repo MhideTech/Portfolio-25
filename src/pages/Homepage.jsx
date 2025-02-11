@@ -56,7 +56,9 @@ function Homepage() {
         <Mouse />
       </div>
 
-      {isFormOpen && <ContactForm setIsFormOpen={setIsFormOpen} />}
+      {isFormOpen && (
+        <ContactForm isFormOpen={isFormOpen} setIsFormOpen={setIsFormOpen} />
+      )}
 
       <About />
 

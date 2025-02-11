@@ -1,6 +1,6 @@
 import { useForm, ValidationError } from "@formspree/react";
 
-function ContactForm({ setIsFormOpen }) {
+function ContactForm({isFormOpen, setIsFormOpen }) {
   const [state, handleSubmit] = useForm("xovjnqdk");
 
   if (state.succeeded) {
@@ -11,7 +11,9 @@ function ContactForm({ setIsFormOpen }) {
     <div className="w-screen h-screen flex items-center contact-form fixed top-0 z-50 p-5">
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col gap-5 w-full md:w-4/6 lg:w-1/2 mx-auto bg-gray-600 px-10 py-14 relative"
+        className={`flex flex-col gap-5 w-full md:w-4/6 lg:w-1/2 mx-auto bg-gray-600 px-10 py-14 relative animate__animated ${
+          isFormOpen ? "animate__zoomIn" : "animate__zoomOut"
+        }`}
       >
         <button
           className="absolute top-3 right-5 cursor-pointer underline text-gray-200"
