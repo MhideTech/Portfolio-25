@@ -57,3 +57,7 @@
 .animate__animated.animate__flipInX {
   --animate-duration: 2s;
 }
+
+.contact-form{
+  background: rgba(0, 0, 0, 0.6);
+}

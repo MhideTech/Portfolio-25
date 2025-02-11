@@ -7,12 +7,19 @@ import NameBadge from "../ui/NameBadge";
 import Project from "../ui/Project";
 import SectionHeadline from "../ui/SectionHeadline";
 import Skills from "../ui/Skills";
+import ContactForm from "../ui/ContactForm";
+import { useState } from "react";
 
 function Homepage() {
+  const [isFormOpen, setIsFormOpen] = useState(false);
+
   return (
     <>
-      <div className="h-screen relative flex flex-col justify-center items-center w-full rounded" id="hero">
-        <Header />
+      <div
+        className="h-screen relative flex flex-col justify-center items-center w-full rounded"
+        id="hero"
+      >
+        <Header setIsFormOpen={setIsFormOpen} />
         <div className="w-48 lg:w-40 h-48 lg:h-40 rounded-full border-4 border-gray-800 relative flex mb-10 hover:grayscale-[20%] animate__animated animate__fadeInLeft">
           <img
             src="/images/me2.jpeg"
@@ -37,7 +44,10 @@ function Homepage() {
         {/* </Slide> */}
         {/* </Fade> */}
 
-        <ul className="list-disc flex gap-10 md:gap-20 text-3xl md:text-4xl font-bold mt-5 test tracking-wide animate__animated animate__fadeInUp w-fit mx-auto" id="hero-ul">
+        <ul
+          className="list-disc flex gap-10 md:gap-20 text-3xl md:text-4xl font-bold mt-5 test tracking-wide animate__animated animate__fadeInUp w-fit mx-auto"
+          id="hero-ul"
+        >
           <li className="">iBuild</li>
           <li>iCreate</li>
           <li>iDesign</li>
@@ -45,6 +55,8 @@ function Homepage() {
 
         <Mouse />
       </div>
+
+      {isFormOpen && <ContactForm setIsFormOpen={setIsFormOpen} />}
 
       <About />
 
