@@ -37,7 +37,7 @@ function ModeSwitcher() {
       {theme === "light" ? (
         <LuSun onClick={toggleDarkMode} />
       ) : (
-        <BsMoonFill onClick={toggleDarkMode} />
+        <BsMoonFill onClick={toggleDarkMode} className="text-gray-200" />
       )}
     </div>
   );
