@@ -1,18 +1,19 @@
 import { useEffect, useState } from "react";
 
 function useMode() {
-  const [theme, setTheme] = useState(localStorage.theme);
-  const colorTheme = theme === "dark" ? "light" : "dark";
+  const [theme, setTheme] = useState(
+    () => localStorage.getItem("theme") || "light"
+  );
 
   useEffect(() => {
-    const root = window.document.documentElement;
-    root.classList.remove(colorTheme);
+    const root = document.documentElement;
+    root.classList.remove("light", "dark");
     root.classList.add(theme);
 
     localStorage.setItem("theme", theme);
-  }, [theme, colorTheme]);
+  }, [theme]);
 
-  return [colorTheme, setTheme];
+  return [theme, setTheme];
 }
 
 export default useMode;
