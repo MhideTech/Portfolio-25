@@ -29,7 +29,7 @@ function Homepage() {
           <NameBadge />
         </div>
 
-        <h1 className="bg-gradient-to-r from-blue-600 via-red-500 to-red-900 text-transparent bg-clip-text text-4xl md:text-5xl xl:text-6xl xl:mb-5 font-bold tracking-wide md:w-2/4 text-center mt-12 lg:mt-0 animate__animated animate__flipInX">
+        <h1 className="bg-gradient-to-r from-blue-600 via-red-500 to-red-900 text-transparent bg-clip-text text-4xl md:text-5xl xl:text-6xl xl:mb-5 font-bold tracking-wide md:w-7/12 text-center mt-12 lg:mt-0 animate__animated animate__flipInX">
           Fullstack Web and Mobile App Developer
         </h1>
 

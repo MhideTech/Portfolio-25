@@ -43,7 +43,7 @@ function About() {
               className="w-full h-full object-cover object-bottom rounded-lg"
             />
           </div>
-          <div className="absolute -left-2 md:-left-24 top-20 bg-white dark:bg-gray-800 px-4 py-2 rounded-full flex items-center shadow-lg animate__animated animate__fadeInRight">
+          <div className="absolute -left-2 md:-left-24 top-44 bg-white dark:bg-gray-800 px-4 py-2 rounded-full flex items-center shadow-lg animate__animated animate__fadeInRight">
             <span className="w-3 h-3 bg-pink-500 rounded-full mr-2"></span>
             <span className="text-black font-medium dark:text-gray-200">
               Experience Developer
