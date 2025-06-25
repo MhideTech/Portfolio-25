@@ -39,18 +39,6 @@
   background-position: center;
 }
 
-.outlined-text {
-  color: transparent;
-  -webkit-text-stroke: 1px black;
-  text-stroke: 1px black;
-}
-
-.outlined-text-dark {
-  color: transparent;
-  -webkit-text-stroke: 1px #f9fafb;
-  text-stroke: 1px #f9fafb;
-}
-
 .test li::marker {
   color: rgb(41, 39, 39);
 }

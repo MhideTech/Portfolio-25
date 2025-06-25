@@ -28,24 +28,13 @@ function Homepage() {
           />
           <NameBadge />
         </div>
-        {/* <Fade
-          // delay={200} // Wait 200ms before starting
-          duration={3000} // Animation lasts 1 second
-          cascade
-          delay={1e3}
-          damping={1e-1}
-          triggerOnce // Only animate once
-          fraction={0.5} // Start animation when element is 50% visible
-        > */}
-        {/* <Slide direction="up" duration={1000} className="w-full flex justify-center"> */}
+
         <h1 className="bg-gradient-to-r from-blue-600 via-red-500 to-red-900 text-transparent bg-clip-text text-4xl md:text-5xl xl:text-6xl xl:mb-5 font-bold tracking-wide md:w-2/4 text-center mt-12 lg:mt-0 animate__animated animate__flipInX">
           Fullstack Web and Mobile App Developer
         </h1>
-        {/* </Slide> */}
-        {/* </Fade> */}
 
         <ul
-          className="list-disc flex gap-10 md:gap-20 text-3xl md:text-4xl font-bold mt-5 test tracking-wide animate__animated animate__fadeInUp w-fit mx-auto"
+          className="list-disc flex gap-10 md:gap-20 text-3xl md:text-4xl font-bold mt-5 test tracking-wide animate__animated animate__fadeInUp w-fit mx-auto dark:text-gray-200"
           id="hero-ul"
         >
           <li className="">iBuild</li>
@@ -61,11 +50,6 @@ function Homepage() {
       )}
 
       <About />
-
-      {/* <h1 className="text-7xl font-bold bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200 text-transparent bg-clip-text">
-        I take no hidden shortcuts, <br />
-        only clear paths to excellence.
-      </h1> */}
 
       <Skills />
 

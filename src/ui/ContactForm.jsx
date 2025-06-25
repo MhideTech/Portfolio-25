@@ -3,10 +3,6 @@ import { useForm, ValidationError } from "@formspree/react";
 function ContactForm({isFormOpen, setIsFormOpen }) {
   const [state, handleSubmit] = useForm("xovjnqdk");
 
-  if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
-  }
-
   return (
     <div className="w-screen h-screen flex items-center contact-form fixed top-0 z-50 p-5">
       <form
