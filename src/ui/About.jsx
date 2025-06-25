@@ -40,7 +40,7 @@ function About() {
             <img
               src="/images/Picture.jpg"
               alt="Okefolahan Olamide Israel"
-              className="w-full h-full object-cover object-bottom"
+              className="w-full h-full object-cover object-bottom rounded-lg"
             />
           </div>
           <div className="absolute -left-2 md:-left-24 top-20 bg-white dark:bg-gray-800 px-4 py-2 rounded-full flex items-center shadow-lg animate__animated animate__fadeInRight">
