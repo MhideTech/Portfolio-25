@@ -14,6 +14,15 @@ function Project() {
       githubUrl: "https://github.com/MhideTech/duo_share_v2",
     },
     {
+      image: "/images/projects-image/buy-coffee.png",
+      name: "Buy Professeur a Coffee",
+      url: "https://buy-professeur-a-coffee.vercel.app/",
+      description:
+        'A simple donation-based web application that allows users to support me by "buying me a coffee" through seamless Paystack payment integration in real-time.',
+      technologies: "ReactJS, TypeScript, Tailwind CSS, Paystack API",
+      githubUrl: "https://github.com/MhideTech/buy-me-a-coffee",
+    },
+    {
       image: "/images/projects-image/plant-palace.png",
       name: "PlantPalace",
       url: "https://aptechota-plantpalace-cyberminds.vercel.app/",
