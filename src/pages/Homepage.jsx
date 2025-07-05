@@ -42,6 +42,14 @@ function Homepage() {
           <li>iDesign</li>
         </ul>
 
+        <a
+          href="\resume\Okefolahan Olamide Resume.pdf"
+          download={true}
+          className="text-2xl mt-8 px-8 py-3 bg-gray-800 text-white dark:bg-gray-200 dark:text-gray-800"
+        >
+          Download CV
+        </a>
+
         <Mouse />
       </div>
 
